@@ -1,0 +1,23 @@
+{% macro render_stories(rss) %}
+<table class="table">
+    <th>Title</th><th>Published Date</th>
+    {% for articles in rss %}
+            {% for group, article in articles.iteritems() %}
+                    {% for a in article.articles %}
+                        {% if group % 2 == 0 %}
+                            <tr class="info">
+                        {% else %}
+                            <tr>
+                        {% endif %}
+                                <td>
+                                    {{ a.title }}
+                                </td>
+                                <td>
+                                   {{ a.pubDate }}
+                                </td>
+                            </tr>
+                    {% endfor %}
+            {% endfor %}
+    {% endfor %}
+</table>
+{% endmacro %}

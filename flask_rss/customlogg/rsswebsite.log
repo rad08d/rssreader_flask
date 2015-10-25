@@ -1,0 +1,16 @@
+INFO:werkzeug: * Running on http://127.0.0.1:8001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:17:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:18:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:18:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:19:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:19:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:19:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:19:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:19:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:19:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:20:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:20:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:20:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:20:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:20:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2015 14:20:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -

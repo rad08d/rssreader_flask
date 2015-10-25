@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% from "macros.html" import render_stories %}
+{% block title %}Online RSS Reader -- Availabe Stories {% endblock %}
+
+{% block body %}
+    <div>
+        <h1>Online RSS Reader</h1>
+    </div>
+    {{ render_stories(stories) }}
+{% endblock %}
